@@ -1,0 +1,96 @@
+.bg-light {
+  background-color: #fff !important;
+  /* Estilos para la imagen de fondo */
+}
+
+.bg-image {
+  background-image: url("../images/portada.png");
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Estilos para el fondo semitransparente */
+.bg-overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* Estilos para el texto en la portada */
+.text-overlay {
+  color: white;
+  position: relative;
+  z-index: 1;
+  padding-top: 180px;
+  padding-right: 150px;
+}
+
+.navbar-brand {
+  margin-right: auto;
+}
+
+#nosotros h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#cursos h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+#opiniones h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.card2 {
+  background-color: #d4d4d4;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1019607843);
+  padding: 20px;
+}
+
+.card-title {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.card-subtitle {
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
+
+#footer {
+  background-color: #111111;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.redes-sociales a {
+  color: #fff;
+  margin-right: 20px;
+  font-size: 20px;
+}
+.redes-sociales a:hover {
+  color: #fff;
+  opacity: 0.7;
+}
+
+.modal-header {
+  color: #202020;
+}
+
+.modal-body {
+  color: #202020;
+}/*# sourceMappingURL=style.css.map */
