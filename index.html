@@ -68,80 +68,6 @@
       <div class="container text-left text-overlay">
         <h1>Los mejores cursos digitales de finanzas hechos por emprendedores para emprendedores.</h1>
         <p>Diseñamos el mejor contenido para ayudarte a mejorar las finanzas de tus emprendimientos.</p>
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Comienza tu
-          aprendizaje</button>
-      </div>
-      <!-- The Modal -->
-      <div class="modal fade" id="myModal">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-
-            <!-- Modal Header -->
-            <div class="modal-header">
-              <h4 class="modal-title">Ingresa tu información</h4>
-              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-            </div>
-
-            <!-- Modal body -->
-            <div class="modal-body">
-              <!-- Formulario -->
-              <form id="formulario" class="needs-validation was-validated" novalidate>
-                <div class="mb-3">
-                  <label for="usuario" class="form-label">Nombre de usuario</label>
-                  <input type="text" class="form-control" id="usuario" name="usuario" required>
-                  <div class="invalid-feedback">
-                    Por favor ingresa tu nombre de usuario.
-                  </div>
-                </div>
-                <div class="mb-3">
-                  <label for="correo" class="form-label">Correo electrónico</label>
-                  <input type="email" class="form-control" id="correo" name="correo" required>
-                  <div class="invalid-feedback">
-                    Por favor ingresa un correo electrónico válido.
-                  </div>
-                </div>
-                <div class="mb-3">
-                  <label for="contraseña" class="form-label">Contraseña</label>
-                  <input type="password" class="form-control" id="contraseña" name="contraseña" minlength="8" required>
-                  <div class="invalid-feedback">
-                    La contraseña debe tener al menos 8 caracteres.
-                  </div>
-                </div>
-                <div class="mb-3">
-                  <label for="edad" class="form-label">Edad</label>
-                  <input type="number" class="form-control" id="edad" name="edad" min="18" max="99" required>
-                  <div class="invalid-feedback">
-                    Debes tener al menos 18 años para registrarte.
-                  </div>
-                </div>
-                <div class="mb-3">
-                  <label for="sexo" class="form-label">Sexo</label>
-                  <select class="form-select" id="sexo" name="sexo" required>
-                    <option value="" selected disabled>Selecciona tu sexo</option>
-                    <option value="masculino">Masculino</option>
-                    <option value="femenino">Femenino</option>
-                    <option value="otro">Otro</option>
-                  </select>
-                  <div class="invalid-feedback">
-                    Por favor selecciona tu sexo.
-                  </div>
-                </div>
-                <div class="mb-3">
-                  <label for="comentarios" class="form-label">Comentarios</label>
-                  <textarea class="form-control" id="comentarios" name="comentarios" rows="3"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
-              </form>
-              <!--  -->
-            </div>
-
-            <!-- Modal footer -->
-            <div class="modal-footer">
-              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-            </div>
-
-          </div>
-        </div>
       </div>
     </div>
   </header>
@@ -155,51 +81,134 @@
           <img src="images/nosotros.png" alt="Imagen de nosotros" class="img-fluid">
         </div>
         <div class="col-md-6">
-          <p>Somos una empresa dedicada a ofrecer soluciones tecnológicas a nuestros clientes desde hace más de 10 años.
-            Nuestro equipo de expertos en desarrollo web y móvil está comprometido en brindar la mejor calidad y
-            servicio a nuestros clientes.</p>
+          <p>Soy Caroline y después de mucho tiempo he decidido crear un espacio en donde pueda
+            compartir toda mi sabiduría, la que ya conoces de internet pero de manera más profesional
+            y personalizada.</p>
+          <p>Esta vez funcionará por suscripciones, las cuales son las siguientes:</p>
           <ul>
-            <li>Soluciones personalizadas</li>
-            <li>Desarrollo web y móvil</li>
-            <li>Servicio al cliente excepcional</li>
+            <li>Prueba gratis</li>
+            <li>Básico</li>
+            <li>Pro</li>
           </ul>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+            Registrate para comenzar tu aprendizaje</button>
+          <!-- The Modal -->
+          <div class="modal fade" id="myModal">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Ingresa tu información</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <!-- Formulario -->
+                  <form id="formulario" class="needs-validation was-validated" novalidate>
+                    <div class="mb-3">
+                      <label for="usuario" class="form-label">Nombre de usuario</label>
+                      <input type="text" class="form-control" id="usuario" name="usuario" required>
+                      <div class="invalid-feedback">
+                        Por favor ingresa tu nombre de usuario.
+                      </div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="correo" class="form-label">Correo electrónico</label>
+                      <input type="email" class="form-control" id="correo" name="correo" required>
+                      <div class="invalid-feedback">
+                        Por favor ingresa un correo electrónico válido.
+                      </div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="contraseña" class="form-label">Contraseña</label>
+                      <input type="password" class="form-control" id="contraseña" name="contraseña" minlength="8"
+                        required>
+                      <div class="invalid-feedback">
+                        La contraseña debe tener al menos 8 caracteres.
+                      </div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="edad" class="form-label">Edad</label>
+                      <input type="number" class="form-control" id="edad" name="edad" min="18" max="99" required>
+                      <div class="invalid-feedback">
+                        Debes tener al menos 18 años para registrarte.
+                      </div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="sexo" class="form-label">Sexo</label>
+                      <select class="form-select" id="sexo" name="sexo" required>
+                        <option value="" selected disabled>Selecciona tu sexo</option>
+                        <option value="masculino">Masculino</option>
+                        <option value="femenino">Femenino</option>
+                        <option value="otro">Otro</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        Por favor selecciona tu sexo.
+                      </div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="comentarios" class="form-label">Comentarios</label>
+                      <textarea class="form-control" id="comentarios" name="comentarios" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                  </form>
+                  <!--  -->
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- Fin modal -->
         </div>
       </div>
     </div>
   </section>
   <hr>
   <!-- Cursos -->
-  <section id="cursos">
+  <section class="section-bg2" id="cursos">
     <div class="container">
       <h2>Cursos</h2>
       <div class="row">
         <div class="col-md-4">
           <div class="card">
-            <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Curso 1">
+            <!-- <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Curso 1"> -->
             <div class="card-body">
-              <h5 class="card-title">Curso 1</h5>
-              <p class="card-text">Este es un curso sobre HTML, CSS y Bootstrap 5.</p>
-              <a href="#" class="btn btn-primary">Más información</a>
+              <h4 class="card-title text-center">Prueba gratis</h4>
+              <p class="card-text">Esta suscripción cuenta con los siguientes beneficios:</p>
+              <ul>
+                <li>Acceso de por vida.</li>
+                <li>Cursos freemium.</li>
+                <li>Soporte técnico.</li>
+                <li>Lives gratuitos.</li>
+              </ul>
+              <p class="text-center"><a href="#" class="btn btn-primary">Gratis</a></p>
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card">
-            <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Curso 2">
+            <!-- <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Curso 2"> -->
             <div class="card-body">
-              <h5 class="card-title">Curso 2</h5>
-              <p class="card-text">Este es un curso sobre JavaScript y jQuery.</p>
-              <a href="#" class="btn btn-primary">Más información</a>
+              <h4 class="card-title text-center">Básico</h4>
+              <p class="card-text">Esta suscripción cuenta con los siguientes beneficios:</p>
+              <p class="text-center"><a href="#" class="btn btn-primary">$5.99</a></p>
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card">
-            <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Curso 3">
+            <!-- <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Curso 3"> -->
             <div class="card-body">
-              <h5 class="card-title">Curso 3</h5>
-              <p class="card-text">Este es un curso sobre PHP y MySQL.</p>
-              <a href="#" class="btn btn-primary">Más información</a>
+              <h4 class="card-title text-center">Pro</h4>
+              <p class="card-text">Esta suscripción cuenta con los siguientes beneficios:</p>
+              <p class="text-center"><a href="#" class="btn btn-primary">$9.99</a></p>
             </div>
           </div>
         </div>
